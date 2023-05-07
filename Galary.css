@@ -1,0 +1,126 @@
+
+
+.topnav {
+    overflow: hidden;
+    background-color: #755050a6;
+  }
+  
+
+
+.topnav a {
+    float: right;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    
+  }
+  .topnav a:hover{
+    background-color: #ddd;
+    color: black;
+  }
+  .topnav a.active {
+    background-color: #04AA6D;
+    color: white;
+  }
+  
+  /* Hide the link that should open and close the topnav on small screens */
+  .topnav .icon {
+    display: none;
+  }
+  header{
+    
+    background-color: #5a5353; 
+    height: 400px; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+    background-size: cover;
+
+    
+  }
+  a:link {
+    color: green;
+    background-color: transparent;
+    
+  }
+  a:visited {
+    color: pink;
+    background-color: transparent;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    color: red;
+    background-color: transparent;
+    text-decoration: underline;
+  }
+  a:active {
+    color: yellow;
+    background-color: transparent;
+    text-decoration: underline;
+  }
+  .container {
+    position: relative;
+    text-align: center;
+    color: white;
+  
+  }
+
+  .centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-decoration: underline;
+    text-decoration-color: brown;
+  }
+  .responsive{
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+
+
+  }
+  .halabja{
+min-width: 50%;
+
+  }
+  
+  .inner-image {
+    position: relative;
+    top: 150px;
+    right: 30px;
+    left: 15px;
+    height: 90px;
+    float: left;
+    background-repeat: no-repeat;
+  }
+  div p{
+position: relative;
+top: 210px;
+bottom: 100px;
+left: 200px;
+
+  }
+  @media screen and (max-width: 600px) {
+    .topnav.responsive {position: relative;}
+    .topnav.responsive .icon {
+      position: absolute;
+      right: 0;
+      top: 0;
+    }
+  }
+  #dk{
+    background-image: url('Duhok.jpg');
+
+
+
+  }
+  h6{
+background-color: #bd4747a6;
+flex-direction: row-reverse;
+
+
+  }
